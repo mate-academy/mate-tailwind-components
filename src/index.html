@@ -11,33 +11,51 @@
       data-qa="cards-section"
       class="flex items-start justify-center w-full m-auto space-x-2"
     >
-      <section class="">
-        <h3 class="">
-          <svg viewBox="0 0 40 40" class="">
+      <section
+        class="group w-[400px] flex flex-col overflow-hidden rounded-3xl p-6 shadow-lg shadow-gray-900/5 bg-white"
+      >
+        <h3 class="flex items-center text-sm font-semibold text-gray-900">
+          <svg
+            viewBox="0 0 40 40"
+            class="h-6 w-6 flex-none transition fill-gray-300"
+            aria-hidden="true"
+          >
             <path
               fill-rule="evenodd"
               clip-rule="evenodd"
               d="M20 40C8.954 40 0 31.046 0 20S8.954 0 20 0s20 8.954 20 20-8.954 20-20 20ZM4 20c0 7.264 5.163 13.321 12.02 14.704C17.642 35.03 19 33.657 19 32V8c0-1.657-1.357-3.031-2.98-2.704C9.162 6.68 4 12.736 4 20Z"
             ></path>
           </svg>
-          <span class="">Starter</span>
+          <span
+            class="ml-4 relative before:absolute before:left-0 before:right-0 before:bottom-0 before:h-[2px] before:bg-none before:transition group-hover:before:bg-cyan-500"
+            >Starter</span
+          >
         </h3>
-        <p class="">$0</p>
-        <p class="">
+        <p class="relative mt-5 flex text-3xl tracking-tight text-gray-900">
+          <span aria-hidden="false" class="transition duration-300">$0</span>
+        </p>
+
+        <p class="mt-3 text-sm text-gray-700">
           You’re new to investing but want to do it right. Get started for free.
         </p>
         <a
-          class=""
-          color="gray"
+          class="inline-flex justify-center rounded-lg py-2 px-3 text-sm font-semibold transition-colors relative overflow-hidden mt-6 bg-gray-800 text-white hover:bg-gray-900 active:bg-gray-800 active:text-white/80"
           aria-label="Get started with the Starter plan for"
-          variant="solid"
         >
           Get started for free
         </a>
-        <div class="">
-          <ul role="list" class="">
-            <li class="">
-              <svg viewBox="0 0 24 24" class="">
+
+        <div class="mt-6">
+          <ul
+            role="list"
+            class="-my-2 divide-y divide-gray-200 text-sm text-gray-700"
+          >
+            <li class="flex py-2">
+              <svg
+                viewBox="0 0 24 24"
+                class="h-6 w-6 flex-none text-gray-700 transition"
+                aria-hidden="true"
+              >
                 <path
                   d="M9.307 12.248a.75.75 0 1 0-1.114 1.004l1.114-1.004ZM11 15.25l-.557.502a.75.75 0 0 0 1.15-.043L11 15.25Zm4.844-5.041a.75.75 0 0 0-1.188-.918l1.188.918Zm-7.651 3.043 2.25 2.5 1.114-1.004-2.25-2.5-1.114 1.004Zm3.4 2.457 4.25-5.5-1.187-.918-4.25 5.5 1.188.918Z"
                   fill="currentColor"
@@ -53,10 +71,16 @@
                   stroke-linejoin="round"
                 ></circle>
               </svg>
-              <span class="">Commission-free trading</span>
+              <span class="ml-4">Commission-free trading</span>
             </li>
-            <li class="">
-              <svg viewBox="0 0 24 24" class="">
+
+            <li class="flex py-2">
+              <svg
+                viewBox="0 0 24 24"
+                class="h-6 w-6 flex-none text-gray-700 transition"
+                aria-hidden="true"
+              >
+
                 <path
                   d="M9.307 12.248a.75.75 0 1 0-1.114 1.004l1.114-1.004ZM11 15.25l-.557.502a.75.75 0 0 0 1.15-.043L11 15.25Zm4.844-5.041a.75.75 0 0 0-1.188-.918l1.188.918Zm-7.651 3.043 2.25 2.5 1.114-1.004-2.25-2.5-1.114 1.004Zm3.4 2.457 4.25-5.5-1.187-.918-4.25 5.5 1.188.918Z"
                   fill="currentColor"
@@ -72,10 +96,15 @@
                   stroke-linejoin="round"
                 ></circle>
               </svg>
-              <span class="">Multi-layered encryption</span>
+              <span class="ml-4">Multi-layered encryption</span>
             </li>
-            <li class="">
-              <svg viewBox="0 0 24 24" class="">
+
+            <li class="flex py-2">
+              <svg
+                viewBox="0 0 24 24"
+                class="h-6 w-6 flex-none text-gray-700 transition"
+                aria-hidden="true"
+              >
                 <path
                   d="M9.307 12.248a.75.75 0 1 0-1.114 1.004l1.114-1.004ZM11 15.25l-.557.502a.75.75 0 0 0 1.15-.043L11 15.25Zm4.844-5.041a.75.75 0 0 0-1.188-.918l1.188.918Zm-7.651 3.043 2.25 2.5 1.114-1.004-2.25-2.5-1.114 1.004Zm3.4 2.457 4.25-5.5-1.187-.918-4.25 5.5 1.188.918Z"
                   fill="currentColor"
@@ -91,10 +120,15 @@
                   stroke-linejoin="round"
                 ></circle>
               </svg>
-              <span class="">One tip every day</span>
+              <span class="ml-4">One tip every day</span>
             </li>
-            <li class="">
-              <svg viewBox="0 0 24 24" class="">
+
+            <li class="flex py-2">
+              <svg
+                viewBox="0 0 24 24"
+                class="h-6 w-6 flex-none text-gray-700 transition"
+                aria-hidden="true"
+              >
                 <path
                   d="M9.307 12.248a.75.75 0 1 0-1.114 1.004l1.114-1.004ZM11 15.25l-.557.502a.75.75 0 0 0 1.15-.043L11 15.25Zm4.844-5.041a.75.75 0 0 0-1.188-.918l1.188.918Zm-7.651 3.043 2.25 2.5 1.114-1.004-2.25-2.5-1.114 1.004Zm3.4 2.457 4.25-5.5-1.187-.918-4.25 5.5 1.188.918Z"
                   fill="currentColor"
@@ -110,41 +144,64 @@
                   stroke-linejoin="round"
                 ></circle>
               </svg>
-              <span class="">Invest up to $1,500 each month</span>
+              <span class="ml-4">Invest up&nbsp;to&nbsp;$1 500&nbsp;each month</span>
             </li>
           </ul>
         </div>
       </section>
 
-      <section class="">
-        <h3 class="">
-          <svg viewBox="0 0 40 40" class="">
+      <section
+        class="group w-[400px] flex flex-col overflow-hidden rounded-3xl p-6 shadow-lg shadow-gray-900/5 bg-gray-900 order-first lg:order-none"
+      >
+        <h3 class="flex items-center text-sm font-semibold text-white">
+          <svg
+            viewBox="0 0 40 40"
+            class="h-6 w-6 flex-none transition fill-cyan-500"
+            aria-hidden="true"
+          >
             <path
               fill-rule="evenodd"
               clip-rule="evenodd"
               d="M20 40C8.954 40 0 31.046 0 20S8.954 0 20 0s20 8.954 20 20-8.954 20-20 20ZM4 20c0 7.264 5.163 13.321 12.02 14.704C17.642 35.03 19 33.657 19 32V8c0-1.657-1.357-3.031-2.98-2.704C9.162 6.68 4 12.736 4 20Z"
             ></path>
           </svg>
-          <span class="">VIP</span>
+          <span
+            class="ml-4 relative before:absolute before:left-0 before:right-0 before:bottom-0 before:h-[2px] before:bg-none before:transition group-hover:before:bg-cyan-500"
+            >VIP</span
+          >
         </h3>
-        <p class="">
-          <span aria-hidden="false" class="">$199</span>
-          <span aria-hidden="true">$1,990</span>
+
+        <p class="relative mt-5 flex text-3xl tracking-tight text-white">
+          <span aria-hidden="false" class="transition duration-300">$199</span>
+          <span
+            aria-hidden="true"
+            class="absolute top-0 left-0 transition duration-300 pointer-events-none -translate-x-6 opacity-0 select-none"
+            >$1,990</span
+          >
         </p>
-        <p class="">
+
+        <p class="mt-3 text-sm text-gray-300">
           You’ve got a huge amount of assets but it’s not enough. To the moon.
         </p>
+
         <a
-          class=""
+          class="relative inline-flex justify-center rounded-lg py-2 px-3 text-sm font-semibold transition-colors overflow-hidden mt-6 bg-cyan-500 text-white before:absolute before:inset-0 before:bg-transparent before:transition-colors hover:before:bg-white/10 active:bg-cyan-600 active:text-white/80 active:before:bg-transparent"
           aria-label="Get started with the VIP plan for [object Object]"
-          variant="solid"
         >
           Subscribe
         </a>
-        <div class="">
-          <ul role="list" class="">
-            <li class="">
-              <svg viewBox="0 0 24 24" class="">
+
+        <div class="mt-6">
+          <ul
+            role="list"
+            class="-my-2 divide-y divide-gray-800 text-sm text-gray-300 order-last"
+          >
+            <li class="flex py-2">
+              <svg
+                viewBox="0 0 24 24"
+                class="h-6 w-6 flex-none text-white transition"
+                aria-hidden="true"
+              >
                 <path
                   d="M9.307 12.248a.75.75 0 1 0-1.114 1.004l1.114-1.004ZM11 15.25l-.557.502a.75.75 0 0 0 1.15-.043L11 15.25Zm4.844-5.041a.75.75 0 0 0-1.188-.918l1.188.918Zm-7.651 3.043 2.25 2.5 1.114-1.004-2.25-2.5-1.114 1.004Zm3.4 2.457 4.25-5.5-1.187-.918-4.25 5.5 1.188.918Z"
                   fill="currentColor"
@@ -160,10 +217,15 @@
                   stroke-linejoin="round"
                 ></circle>
               </svg>
-              <span class="">Commission-free trading</span>
+              <span class="ml-4">Commission-free trading</span>
             </li>
-            <li class="">
-              <svg viewBox="0 0 24 24" class="">
+
+            <li class="flex py-2">
+              <svg
+                viewBox="0 0 24 24"
+                class="h-6 w-6 flex-none text-white transition"
+                aria-hidden="true"
+              >
                 <path
                   d="M9.307 12.248a.75.75 0 1 0-1.114 1.004l1.114-1.004ZM11 15.25l-.557.502a.75.75 0 0 0 1.15-.043L11 15.25Zm4.844-5.041a.75.75 0 0 0-1.188-.918l1.188.918Zm-7.651 3.043 2.25 2.5 1.114-1.004-2.25-2.5-1.114 1.004Zm3.4 2.457 4.25-5.5-1.187-.918-4.25 5.5 1.188.918Z"
                   fill="currentColor"
@@ -179,10 +241,15 @@
                   stroke-linejoin="round"
                 ></circle>
               </svg>
-              <span class="">Multi-layered encryption</span>
+              <span class="ml-4">Multi-layered encryption</span>
             </li>
-            <li class="">
-              <svg viewBox="0 0 24 24" class="">
+
+            <li class="flex py-2">
+              <svg
+                viewBox="0 0 24 24"
+                class="h-6 w-6 flex-none text-white transition"
+                aria-hidden="true"
+              >
                 <path
                   d="M9.307 12.248a.75.75 0 1 0-1.114 1.004l1.114-1.004ZM11 15.25l-.557.502a.75.75 0 0 0 1.15-.043L11 15.25Zm4.844-5.041a.75.75 0 0 0-1.188-.918l1.188.918Zm-7.651 3.043 2.25 2.5 1.114-1.004-2.25-2.5-1.114 1.004Zm3.4 2.457 4.25-5.5-1.187-.918-4.25 5.5 1.188.918Z"
                   fill="currentColor"
@@ -198,10 +265,16 @@
                   stroke-linejoin="round"
                 ></circle>
               </svg>
-              <span class="">Real-time tip notifications</span>
+              <span class="ml-4">Real-time tip notifications</span>
             </li>
-            <li class="">
-              <svg viewBox="0 0 24 24" class="">
+
+            <li class="flex py-2">
+              <svg
+                viewBox="0 0 24 24"
+                class="h-6 w-6 flex-none text-white transition"
+                aria-hidden="true"
+              >
+                <!-- ✔ icon -->
                 <path
                   d="M9.307 12.248a.75.75 0 1 0-1.114 1.004l1.114-1.004ZM11 15.25l-.557.502a.75.75 0 0 0 1.15-.043L11 15.25Zm4.844-5.041a.75.75 0 0 0-1.188-.918l1.188.918Zm-7.651 3.043 2.25 2.5 1.114-1.004-2.25-2.5-1.114 1.004Zm3.4 2.457 4.25-5.5-1.187-.918-4.25 5.5 1.188.918Z"
                   fill="currentColor"
@@ -217,10 +290,15 @@
                   stroke-linejoin="round"
                 ></circle>
               </svg>
-              <span class="">No investment limits</span>
+              <span class="ml-4">No investment limits</span>
             </li>
-            <li class="">
-              <svg viewBox="0 0 24 24" class="">
+
+            <li class="flex py-2">
+              <svg
+                viewBox="0 0 24 24"
+                class="h-6 w-6 flex-none text-white transition"
+                aria-hidden="true"
+              >
                 <path
                   d="M9.307 12.248a.75.75 0 1 0-1.114 1.004l1.114-1.004ZM11 15.25l-.557.502a.75.75 0 0 0 1.15-.043L11 15.25Zm4.844-5.041a.75.75 0 0 0-1.188-.918l1.188.918Zm-7.651 3.043 2.25 2.5 1.114-1.004-2.25-2.5-1.114 1.004Zm3.4 2.457 4.25-5.5-1.187-.918-4.25 5.5 1.188.918Z"
                   fill="currentColor"
@@ -236,12 +314,15 @@
                   stroke-linejoin="round"
                 ></circle>
               </svg>
-              <span class="">
-                Advanced transaction anonymization
-              </span>
+              <span class="ml-4">Advanced transaction anonymization</span>
             </li>
-            <li class="">
-              <svg viewBox="0 0 24 24" class="">
+
+            <li class="flex py-2">
+              <svg
+                viewBox="0 0 24 24"
+                class="h-6 w-6 flex-none text-white transition"
+                aria-hidden="true"
+              >
                 <path
                   d="M9.307 12.248a.75.75 0 1 0-1.114 1.004l1.114-1.004ZM11 15.25l-.557.502a.75.75 0 0 0 1.15-.043L11 15.25Zm4.844-5.041a.75.75 0 0 0-1.188-.918l1.188.918Zm-7.651 3.043 2.25 2.5 1.114-1.004-2.25-2.5-1.114 1.004Zm3.4 2.457 4.25-5.5-1.187-.918-4.25 5.5 1.188.918Z"
                   fill="currentColor"
@@ -257,7 +338,7 @@
                   stroke-linejoin="round"
                 ></circle>
               </svg>
-              <span class="">Automated tax-loss harvesting</span>
+              <span class="ml-4">Automated tax-loss harvesting</span>
             </li>
           </ul>
         </div>

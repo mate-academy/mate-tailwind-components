@@ -10,7 +10,7 @@
     "test:only": "mate-scripts test",
     "build": "mate-scripts build",
     "deploy": "mate-scripts deploy",
-    "reference": "backstop reference",  
+    "reference": "backstop reference",
     "update": "mate-scripts update",
     "postinstall": "npm run update",
     "test": "npm run lint && npm run test:only"
@@ -23,7 +23,7 @@
     "@mate-academy/backstop-config": "latest",
     "@mate-academy/bemlint": "latest",
     "@mate-academy/linthtml-config": "latest",
-    "@mate-academy/scripts": "^2.1.0",
+    "@mate-academy/scripts": "^2.1.1",
     "@mate-academy/stylelint-config": "latest",
     "@parcel/transformer-sass": "^2.12.0",
     "backstopjs": "6.3.23",
